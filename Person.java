@@ -9,7 +9,7 @@ class Person{
         p.Name= "Lavanya";
      
         System.out.println(p.Name);
-        
+        System.out.println("hi");
 
     }
 
