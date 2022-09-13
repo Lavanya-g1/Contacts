@@ -4,15 +4,25 @@ class Person{
     String Ssn;
 
 
+public Person(String Name,int Age,String Ssn){
+this.Age = Age;
+this.Name = Name;
+this.Ssn = Ssn;
+}
+    
+
     public static void main(String[] args) {
-        Person p = new Person();
-        p.Name= "Lavanya";
-     
+        Person p = new Person("Lavanya",11,"XXXXX0000");
         System.out.println(p.Name);
-        System.out.println("hi");
+        System.out.println(p.Age);
+      
+        
+       
 
     }
 
+
+   
 
 }
 
